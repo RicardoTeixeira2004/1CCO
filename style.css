@@ -1,0 +1,27 @@
+body {
+    font-family: monospace;
+    font-size: 30px;
+    color: red;
+}
+
+.title {
+color: aqua; 
+font-family: 'Courier New', Courier, monospace; 
+font-weight: 300;
+}
+
+.subtitle {
+font-family: 'Courier New', Courier, monospace; 
+font-weight: 300;
+}
+
+
+.paragraph {
+font-size: 10px;
+}
+
+.highlight {
+    color: aqua;
+}
+
+
