@@ -48,3 +48,11 @@ ul {
     padding: 0;
     align-items: center;
 }
+
+/*  INÍCIO DO BANNER */
+
+ .banner {
+
+    background-image: url(imgs/bg-jelly-fish-para-home.png);
+     
+ }
