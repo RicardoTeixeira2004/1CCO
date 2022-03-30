@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+.header {
+    border: 3px solid aqua;
+    
+}
+
+.header .container {
+    border: 3px solid blue;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul .aqui {
+    font-weight: 800px;
+}
+
+ul {
+    color: rgb(255, 255, 0);
+}
+  
+.title {
+    color: aqua;
+    border: 3px solid red;
+    width: fit-content;
+}
+
+
+.navBar {
+    list-style: none;
+    border: 3px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+}
