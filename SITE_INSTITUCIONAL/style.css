@@ -4,10 +4,8 @@ body {
     font-family: monospace;
 }
 
-
 .header {
     border-bottom: 3px solid aqua;
-    
 }
 
 .container {
@@ -15,7 +13,6 @@ body {
     margin: auto;
     display: flex;
 }
-
 
 .header .container {
     justify-content: space-between;
@@ -28,12 +25,11 @@ body {
 ul {
     color: rgb(255, 255, 0);
 }
-  
+
 .title {
     color: aqua;
     width: fit-content;
 }
-
 
 .navBar {
     list-style: none;
@@ -44,55 +40,61 @@ ul {
     align-items: center;
 }
 
+
 /*  INÍCIO DO BANNER */
 
- .banner {
+.banner {
     background-image: url(imgs/bg-jelly-fish-para-home.png);
     height: 500px;
-    color: white;    
+    color: white;
     display: flex;
-     
- }
+}
 
- .banner .container p span {
+.banner .container p span {
     font-weight: bold;
+}
 
- }
+.banner .container {
+    justify-content: center;
+    font-size: 40px;
+}
 
- .banner .container {
-     justify-content: center;
-     font-size: 40px;
-     width: 10%;
- }
+.banner .container p {
+    width: 30%;
+}
 
- /*  FIM DO BANNER */
 
- /*  COMEÇO DO SOCIAL */
+/*  FIM DO BANNER */
 
- .social {
-     background-color: white;
-     display: flex;
- }
 
- .box img {
-     width: 200px;
- }
+/*  COMEÇO DO SOCIAL */
 
- .social .container .boxes {
+.social {
+    background-color: white;
     display: flex;
- }
+}
 
- .box {
-     display: flex;
-     margin-top: 50px;
-     flex-direction: column;
-     align-items: center;
-     margin-bottom: 50px;
- }
+.box img {
+    width: 200px;
+}
 
-  /*  FIM DO SOCIAL */
+.social .container .boxes {
+    display: flex;
+}
 
-   /*  COMEÇO DO FOOTER */
+.box {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+/*  FIM DO SOCIAL */
+
+
+/*  COMEÇO DO FOOTER */
 
 .footer {
     background-color: mediumaquamarine;
@@ -104,4 +106,46 @@ ul {
 
 .footer .container {
     justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.banner .container .card {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(97, 31, 130);
+    align-items: center;
+    border-radius: 4px;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card h4 {
+    font-size: 15px;
+}
+
+.card input {
+    border: darkmagenta solid 3px;
+    padding: 10px;
+}
+
+.card button {
+    height: 30px;
+    width: 100px;
+    background-color: darkmagenta;
+    margin-top: 25px;
+    font-size: 20px;
+    font: bold 20px monospace;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
 }
